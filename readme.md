@@ -9,7 +9,7 @@ A simple wrapper (to prevent leaking API keys) with node + express to get your s
 # Setup
 Clone project:
 ```
-git clone git remote add origin git@github.com:heijler/get-dribbble-shots.git
+git clone https://github.com/heijler/get-dribbble-shots.git
 ```
 
 Install dependencies:
@@ -23,7 +23,10 @@ DRIBBBLE_KEY=HERE_IS_MY_ACCESS_TOKEN
 ```
 
 # Running the server
+```
 cd get-dribbble-shots
+```
+
 ```
 node src/index.js
 ```
